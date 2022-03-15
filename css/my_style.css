@@ -1,0 +1,30 @@
+/* DEBUG */
+
+.debug{
+    border: 1px solid black;
+}
+
+/* GENERAL */
+
+
+
+/* HEADER */
+
+header{
+    height: 90px;
+    background-color: #2C3E50;
+}
+
+/* JUMBOTRON */
+
+#jumbotron,
+#about{
+    background-color: #1ABC9C;
+}
+
+/* PORTFOLIO */
+
+#portfolio
+#contact-me{
+    background-color: white;
+}
