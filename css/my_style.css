@@ -11,20 +11,30 @@
 /* HEADER */
 
 header{
-    height: 90px;
     background-color: #2C3E50;
 }
 
-/* JUMBOTRON */
+/* JUMBOTRON - ABOUT */
 
 #jumbotron,
 #about{
     background-color: #1ABC9C;
 }
 
-/* PORTFOLIO */
+/* PORTFOLIO - CONTACT.ME */
 
 #portfolio
 #contact-me{
     background-color: white;
 }
+
+/* FOOTER */
+
+#footer{
+    background-color: #3A546D;
+}
+
+/* SUB-FOOTER */
+#sub-footer{
+    background-color: #2C3E50;
+}   
