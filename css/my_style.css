@@ -5,7 +5,10 @@
 }
 
 /* GENERAL */
-
+.line-1{
+    height: 5px;
+    background-color: white;
+}
 
 
 /* HEADER */
@@ -19,6 +22,9 @@ header{
 #jumbotron,
 #about{
     background-color: #1ABC9C;
+}
+#jumbotron img{
+    height: 250px;
 }
 
 /* PORTFOLIO - CONTACT.ME */
