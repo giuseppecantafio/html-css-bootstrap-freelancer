@@ -6,12 +6,17 @@
 
 /* GENERAL */
 .star-container{
-    width: 200px;
+    width: 350px;
     margin: 0 auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .line-1{
     height: 5px;
     background-color: white;
+}
+.fa-star{
+    font-size: 30px;
 }
 
 
