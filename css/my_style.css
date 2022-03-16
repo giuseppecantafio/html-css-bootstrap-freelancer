@@ -5,6 +5,10 @@
 }
 
 /* GENERAL */
+.star-container{
+    width: 200px;
+    margin: 0 auto;
+}
 .line-1{
     height: 5px;
     background-color: white;
@@ -27,12 +31,44 @@ header{
     height: 250px;
 }
 
-/* PORTFOLIO - CONTACT.ME */
+/* PORTFOLIO - CONTACT-ME */
 
 #portfolio
 #contact-me{
     background-color: white;
 }
+#portfolio .line-1{
+    background-color: black;
+}
+.img-container{
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+.fa-plus{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 4.5em;
+    color: white;
+    visibility: hidden;
+}
+.img-over{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(26, 188, 156, 0.7);
+    visibility: hidden;
+}
+.img-container:hover .img-over{
+    visibility: visible;
+}
+.img-container:hover .fa-plus{
+    visibility: visible;
+
 
 /* FOOTER */
 
